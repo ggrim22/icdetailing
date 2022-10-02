@@ -1,0 +1,346 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: url('../../assets/body1bg.jpg') no-repeat center center/cover;
+    z-index: 3;
+    perspective: 1100px;
+}
+
+img{
+    width: 250px;
+}
+
+.basic{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    background: rgba(100, 100, 100, 0.5);
+    gap: 2.5rem;
+    margin: 50px;
+    color: white;
+    text-align: center;
+    z-index: 4;
+    cursor: pointer;
+    transform-style: preserve-3d;
+    transition: transform 1s;
+}
+
+.is-flipped-basic{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    background: rgba(100, 100, 100, 1);
+    gap: 1rem;
+    margin: 50px;
+    transform: scale(1.1);
+    color: white;
+    text-align: center;
+    z-index: 4;
+    transform-style: preserve-3d;
+}
+
+.enthusiast{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    background: rgba(100, 100, 100, 0.5);
+    gap: 1rem;
+    margin: 50px;
+    transform: scale(1.1);
+    color: white;
+    text-align: center;
+    z-index: 4;
+    transform-style: preserve-3d;
+    cursor: pointer;
+}
+
+.front{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1.5rem;
+    backface-visibility: hidden;
+}
+
+
+.is-flipped{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    background: rgba(100, 100, 100, 1);
+    gap: 1rem;
+    margin: 50px;
+    transform: scale(1.1);
+    color: white;
+    text-align: center;
+    z-index: 4;
+    transform-style: preserve-3d;
+}
+
+.back{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    flex-direction: column;
+    background: rgba(138, 43, 226, 0.5);
+    width: 100%;
+    height: 100%;
+    transform: rotateY(180deg);
+    backface-visibility: hidden;
+}
+
+.head{
+    font-size: 2rem;
+    margin-bottom: 4.5rem;
+    font-weight: bold;
+}
+
+.description{
+    padding: 20px;
+}
+
+.cost{
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.basic-package{
+    width: 200px;
+    overflow: wrap;
+}
+
+.maintenence{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    background: rgba(100, 100, 100, 0.5);
+    gap: 2rem;
+    margin: 50px;
+    color: white;
+    text-align: center;
+    z-index: 4;
+    cursor: pointer;
+    transform-style: preserve-3d;
+}
+
+.is-flipped-maintenance{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    background: rgba(100, 100, 100, 1);
+    gap: 1rem;
+    margin: 50px;
+    transform: scale(1.1);
+    color: white;
+    text-align: center;
+    z-index: 4;
+    transform-style: preserve-3d;
+}
+
+.maintenence:hover{
+    background: rgba(138, 43, 226, 0.5);
+    transition: ease-in-out 0.4s;
+}
+
+.enthusiast:hover{
+    background: rgba(138, 43, 226, 0.5);
+    transition: ease-in-out 0.4s;
+}
+
+.is-flipped{
+    background: rgba(138, 43, 226, 0.5);
+    transition: 1500ms;
+    transform: rotateY(180deg);
+    cursor: pointer;
+}
+
+.is-flipped-basic{
+    background: rgba(138, 43, 226, 0.5);
+    transition: 1500ms;
+    transform: rotateY(180deg);
+    cursor: pointer;
+}
+
+.is-flipped-maintenance{
+    background: rgba(138, 43, 226, 0.5);
+    transition: 1500ms;
+    transform: rotateY(180deg);
+    cursor: pointer;
+}
+
+.basic:hover{
+    background: rgba(138, 43, 226, 0.5);
+    transition: ease-in-out 0.4s;
+}
+
+
+.bg2{
+    position: absolute;
+    top: 0vh;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: 0.4;
+    z-index: 2;
+}
+
+@media (max-width: 480px){
+    .container{
+        flex-direction: column;
+        perspective: 2000px;
+    }
+
+    .basic{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 5px;
+        background: rgba(100, 100, 100, 0.5);
+        gap: 1rem;
+        margin: 10px;
+        color: white;
+        text-align: center;
+        z-index: 4;
+        cursor: pointer;
+        transform-style: preserve-3d;
+        transition: transform 1s;
+    }
+
+    img{
+        width: 100px;
+    }
+
+    .basic-package{
+        width: 160px;
+        font-size: 1rem;
+        margin-bottom: -5px;
+    }
+
+    .enthusiast{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 5px;
+        background: rgba(100, 100, 100, 0.5);
+        gap: 0.5rem;
+        margin: 10px;
+        color: white;
+        text-align: center;
+        z-index: 4;
+        transform-style: preserve-3d;
+        cursor: pointer;
+    }
+
+    .enthusiast-package{
+        font-size: 1rem;
+        margin-bottom: -5px;
+    }
+
+    .front>span{
+        width: 100px;
+        font-size: 10px;
+    }
+
+    .maintenence{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 5px;
+        background: rgba(100, 100, 100, 0.5);
+        gap: 1rem;
+        margin: 10px;
+        color: white;
+        text-align: center;
+        z-index: 4;
+        cursor: pointer;
+        transform-style: preserve-3d;
+    }
+
+    .maintenance-package{
+        width: 160px;
+        font-size: 1rem;
+        margin-bottom: -5px;
+    }
+
+    .is-flipped-basic{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 5px;
+        background: rgba(100, 100, 100, 1);
+        margin: 10px;
+        color: white;
+        text-align: center;
+        z-index: 4;
+        transform-style: preserve-3d;
+    }
+
+    .is-flipped{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+        background: rgba(100, 100, 100, 1);
+        margin: 10px;
+        color: white;
+        text-align: center;
+        z-index: 4;
+        transform-style: preserve-3d;
+    }
+
+    .is-flipped-maintenance{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+        background: rgba(100, 100, 100, 1);
+        margin: 10px;
+        color: white;
+        text-align: center;
+        z-index: 4;
+        transform-style: preserve-3d;
+    }
+
+    .head{
+        font-size: 0.9rem;
+        margin-bottom: 0rem;
+        font-weight: bold;
+        margin-top: 35px;
+        padding: 5px;
+    }
+    
+    .description{
+        padding: 5px;
+        font-size: 10px;
+        width: 150px;
+    }
+    
+    .cost{
+        font-size: 0.7rem;
+        font-weight: bold;
+    }
+}
