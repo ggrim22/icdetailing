@@ -201,7 +201,7 @@
         display: flex;
         gap: 1rem;
         position: absolute;
-        bottom: 3rem;
+        bottom: 7rem;
         left: 2rem;
     }
     .arrows>img{
