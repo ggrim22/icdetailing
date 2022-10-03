@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/icdetailing/static/css/main.50a6481d.css",
+    "main.js": "/icdetailing/static/js/main.2f5fbb96.js",
+    "static/media/aboutbg.jpg": "/icdetailing/static/media/aboutbg.d32d9cad1bda9cbfc1f5.jpg",
+    "static/media/car.png": "/icdetailing/static/media/car.bb16dde0430f3d3e7f58.png",
+    "static/media/body1bg.jpg": "/icdetailing/static/media/body1bg.8d06d5de55f03ea862c6.jpg",
+    "static/media/basic.jpg": "/icdetailing/static/media/basic.6c2f1f822863d3f52fe0.jpg",
+    "static/media/logo.png": "/icdetailing/static/media/logo.c07d32ce8850315f2ec7.png",
+    "static/media/jeep.jpeg": "/icdetailing/static/media/jeep.3e08577e537629e0bbab.jpeg",
+    "static/media/cadillac.jpeg": "/icdetailing/static/media/cadillac.1df773f6249f686f1332.jpeg",
+    "static/media/aboutbg1.jpg": "/icdetailing/static/media/aboutbg1.22a070f2e86423b40731.jpg",
+    "static/media/enthusiast.webp": "/icdetailing/static/media/enthusiast.d5ac332a3b80a89ec755.webp",
+    "static/media/garrettcar.jpg": "/icdetailing/static/media/garrettcar.c767f534ae08e28a5866.jpg",
+    "static/media/maintenence.jpg": "/icdetailing/static/media/maintenence.2374d5aaeeb14f2f1791.jpg",
+    "static/media/insta.png": "/icdetailing/static/media/insta.4de4f249fde3e4a15c71.png",
+    "static/media/tik.png": "/icdetailing/static/media/tik.e330a3f7f6118cc9fb70.png",
+    "index.html": "/icdetailing/index.html",
+    "main.50a6481d.css.map": "/icdetailing/static/css/main.50a6481d.css.map",
+    "main.2f5fbb96.js.map": "/icdetailing/static/js/main.2f5fbb96.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.50a6481d.css",
+    "static/js/main.2f5fbb96.js"
+  ]
+}
